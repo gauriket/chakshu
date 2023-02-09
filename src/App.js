@@ -1,5 +1,5 @@
 import './App.css';
-import './linechart.jsx'
+import './linechart.js'
 import { ApexChart } from './linechart.jsx';
 
 function App() {
