@@ -1,11 +1,11 @@
 import './App.css';
 import './linechart.jsx'
-import { ApexChart } from './linechart.jsx';
+import { Bar } from './linechart.jsx';
 
 function App() {
   return (
     <div className="container">
-      <ApexChart/>
+      <Bar/>
     </div>
   );
 }
