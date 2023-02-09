@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import './linechart.jsx'
+import { ApexChart } from './linechart.jsx';
 
 function App() {
   return (
     <div className="container">
-      
+      <ApexChart/>
     </div>
   );
 }
