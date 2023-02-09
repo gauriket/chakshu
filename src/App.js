@@ -3,6 +3,7 @@ import './linechart.js'
 import { Bar } from './linechart.js';
 import Navbar from './navbar';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Example from './stats';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
        
        <div className="container my-5">
         <Bar/>
+        <Example/>
       </div></div>
   );
 }
