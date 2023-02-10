@@ -14,7 +14,9 @@
 }
 
 .container1{
-  display: -ms-inline-flexbox;
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
 }
 
 .App-header {
