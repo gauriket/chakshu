@@ -15,11 +15,14 @@ function App() {
         </Routes>
       </Router>
        
-       <div className="container my-5">
-        <Bar/>
-        <Example/>
-        <Donut/>
-      </div></div>
+       <div className="container1">
+        <Bar/><Donut/>
+      </div>
+      <div className="container2">
+      
+      </div>
+      <div className="container3"><Example/></div>
+      </div>
   );
 }
 
