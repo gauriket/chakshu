@@ -25,7 +25,6 @@ import Chart from "react-apexcharts";
 
   render() {
     return (
-      <div className="container">
       <div className="app">
         <div className="row">
           <div className="mixed-chart">
@@ -37,7 +36,6 @@ import Chart from "react-apexcharts";
             />
           </div>
         </div>
-      </div>
       </div>
     );
   }
