@@ -1,7 +1,6 @@
 import './App.css';
 import './linechart.js'
 import { Bar } from './linechart.js';
-import { Toparea } from './toparea.js';
 import { Line } from './line.js';
 import { Donut } from './abc.js';
 import Navbar from './navbar';
@@ -23,7 +22,6 @@ function App() {
       </div>
       <div className="container2">
         <div className='container2-box1'><Bar/></div> 
-        <div className='container2-box'><Toparea/></div> 
         <div className='container2-box'><Donut/></div>
       </div>
       <div className="container3"><Example/>
