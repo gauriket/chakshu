@@ -8,8 +8,8 @@ export class Donut extends Component {
 
     this.state = {
       options: {},
-      series: [44, 55, 41, 17, 15],
-      labels: ['A', 'B', 'C', 'D', 'E']
+      series: [44, 55, 141],
+      labels: ['A', 'B', 'C']
     }
   }
 

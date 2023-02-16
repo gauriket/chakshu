@@ -7,6 +7,7 @@ import { Donut } from './abc.js';
 import Navbar from './navbar';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Example from './stats';
+// import WithHeaderExample from './card';
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
         <div className='container2-box'><Toparea/></div> 
         <div className='container2-box'><Donut/></div>
       </div>
-      <div className="container3"><Example/></div>
+      <div className="container3"><Example/>
+      </div>
       </div>
   );
 }

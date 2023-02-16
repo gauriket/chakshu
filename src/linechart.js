@@ -19,7 +19,12 @@ import Chart from "react-apexcharts";
           name: "series-1",
           data: [30, 40, 45, 50, 49, 60, 70, 91, 60, 70, 91, 45, 50]
         }
-      ]
+      ],
+      colors:['#CCCACC '],
+      fill: {
+        opacity: 1,
+        type: 'solid'
+      }
     };
   }
 
@@ -33,6 +38,7 @@ import Chart from "react-apexcharts";
               series={this.state.series}
               type="bar"
               width="500"
+              color="grey"
             />
           </div>
         </div>
