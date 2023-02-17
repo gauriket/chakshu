@@ -1,5 +1,7 @@
+import React, { Component } from "react";
+import Chart from "react-apexcharts";
 
-class ApexChart extends React.Component {
+export class Line extends Component {
     constructor(props) {
       super(props);
 
@@ -23,10 +25,7 @@ class ApexChart extends React.Component {
           stroke: {
             curve: 'straight'
           },
-          title: {
-            text: 'Product Trends by Month',
-            align: 'left'
-          },
+         
           grid: {
             row: {
               colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
@@ -49,5 +48,9 @@ class ApexChart extends React.Component {
         
 
   <div id="chart">
-<ReactApexChart options={this.state.options} series={this.state.series} type="line" height={350} />
+<Chart options={this.state.options} series={this.state.series} type="line" height={350} />
 </div>
+
+          );
+        }
+      }

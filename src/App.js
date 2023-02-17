@@ -19,7 +19,7 @@ function App() {
       </Router>
        
        <div className="container1">
-        <Bar/><Donut/>
+        <div className='container1-box'><Line/></div>
       </div>
       {/* <div className="container2">
         <Toparea/>
