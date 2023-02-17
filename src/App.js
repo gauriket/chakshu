@@ -1,11 +1,12 @@
 import './App.css';
 import './linechart.js'
 import { Bar } from './linechart.js';
-import { Toparea } from './toparea.js';
+// import { Toparea } from './toparea.js';
 import { Donut } from './abc.js';
 import Navbar from './navbar';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Example from './stats';
+// import { DonutGraph } from './chatgpt';
 // import WithHeaderExample from './card';
 
 function App() {
@@ -20,12 +21,14 @@ function App() {
        <div className="container1">
         <Bar/><Donut/>
       </div>
-      <div className="container2">
+      {/* <div className="container2">
         <Toparea/>
       
-      </div>
+      </div> */}
       <div className="container3"><Example/>
       </div>
+      {/* <div className="container"><DonutGraph/>
+      </div> */}
       </div>
   );
 }
