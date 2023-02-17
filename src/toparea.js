@@ -8,7 +8,7 @@ export class Toparea extends Component {
       this.state = {
       
         series: [{
-          data: [400, 430, 448, 470, 540, 580, 690, 1100, 1200, 1380]
+          data: [400,  200, 1200, 1300]
         }],
         options: {
           chart: {
@@ -25,8 +25,7 @@ export class Toparea extends Component {
             enabled: false
           },
           xaxis: {
-            categories: ['South Korea', 'Canada', 'United Kingdom', 'Netherlands', 'Italy', 'France', 'Japan',
-              'United States', 'China', 'Germany'
+            categories: ['Kothrud', 'Warje', 'Peth', 'Pimpri-Chinchwad'
             ],
           }
         },
