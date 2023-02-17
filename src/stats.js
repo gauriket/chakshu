@@ -8,6 +8,7 @@ export default function Example() {
         <h3 className="text-lg font-medium leading-6 text-gray-900">Applicant Information</h3>
         <p className="mt-1 max-w-2xl text-sm text-gray-500">Personal details and application.</p>
       </div>
+      <Toparea/>
       <div className="border-t border-gray-200">
         <dl>
           <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">

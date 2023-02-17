@@ -23,7 +23,8 @@ export class Line extends Component {
             enabled: false
           },
           stroke: {
-            curve: 'straight'
+            curve: 'straight',
+            colors: ['#EB150E']
           },
          
           grid: {
