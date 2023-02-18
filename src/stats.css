@@ -1,0 +1,19 @@
+.card {
+    background-color: white;
+    /* border: 1px solid black; */
+    position: left;
+    height: 80px;
+    width: 50vw;
+    padding: 40px;
+    /* margin:180px; */
+    box-shadow: 13px 13px 13px rgb(56, 55, 55);
+}
+.barchart {
+    background-color: white;
+    /* border: 1px solid rgb(113, 112, 112); */
+    position: left;
+    height: 400px;
+    padding: 20px;
+    margin: 50px;
+    box-shadow: 13px 13px 13px rgb(56, 55, 55);
+}

@@ -8,24 +8,26 @@ export class Toparea extends Component {
       this.state = {
       
         series: [{
-          data: [400,  200, 1200, 1300]
+          data: [400,  200, 1200, 1000, 500],colors: ['#EB150E']
         }],
         options: {
           chart: {
             type: 'bar',
-            height: 350
+            height: 350,
+            colors: ['#EB150E']
           },
           plotOptions: {
             bar: {
               borderRadius: 4,
               horizontal: true,
+              height: 50
             }
           },
           dataLabels: {
             enabled: false
           },
           xaxis: {
-            categories: ['Kothrud', 'Warje', 'Peth', 'Pimpri-Chinchwad'
+            categories: ['Kothrud', 'Warje', 'Peth', 'Pimpri-Chinchwad', 'Hinjewadi'
             ],
           }
         },

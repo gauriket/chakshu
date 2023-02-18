@@ -7,7 +7,7 @@ export class Donut extends Component {
     super(props);
 
     this.state = {
-      options: {},
+      options: {colors: ['#EB150E', '#BF3434', '#FF9E9E']},
       series: [44, 55, 141],
       labels: ['A', 'B', 'C']
     }

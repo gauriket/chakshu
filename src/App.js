@@ -30,7 +30,7 @@ function App() {
       </div>
       <div className="container3"><Example/>
       </div>
-      {/* <div className="container"><DonutGraph/>
+       {/* <div className="container"><DonutGraph/>
       </div> */}
       </div>
   );
