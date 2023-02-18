@@ -20,14 +20,14 @@ function App() {
           <Route path='/' element={<Navbar/>}/>
         </Routes>
       </Router>
-       
+       <div className="container">
        <div className="container1">
         <div className='container1-box'><Line/></div>
       </div>
-      <div className="container2">
-        <div className='container2-box1'><Bar/></div> 
-        <div className='container2-box'><Donut/></div>
-      </div>
+      <div className="container2 my-10">
+        {/* <div className='container2-box1'><Bar/></div>  */}
+        <Donut/>
+      </div></div>
       <div className="container3"><Example/>
       </div>
        {/* <div className="container"><DonutGraph/>

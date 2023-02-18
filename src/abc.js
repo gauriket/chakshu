@@ -9,7 +9,8 @@ export class Donut extends Component {
     this.state = {
       options: {colors: ['#EB150E', '#BF3434', '#FF9E9E']},
       series: [44, 55, 141],
-      labels: ['A', 'B', 'C']
+      labels: ['Severe', 'Moderate', 'Low'],
+      categories: ['Severe', 'Moderate', 'Low']
     }
   }
 
@@ -17,7 +18,7 @@ export class Donut extends Component {
 
     return (
       <div className="donut">
-        <Chart options={this.state.options} series={this.state.series} type="donut" width="380" />
+        <Chart options={this.state.options} series={this.state.series} type="donut" width="400" />
       </div>
     );
   }
