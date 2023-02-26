@@ -4,7 +4,7 @@ import { Bar } from './linechart.js';
 // import { Toparea } from './toparea.js';
 import ExampleDonut from './card';
 import { Line } from './line.js';
-
+import ExampleCard from './card2';
 import { Donut } from './abc.js';
 import Navbar from './navbar';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
@@ -22,7 +22,9 @@ function App() {
       </Router>
        <div className="container">
        <div className="container1">
-        <div className='container1-box'><Line/></div>
+        <div className='container1-box'><Line/>
+        <ExampleCard/>
+        </div>
       </div>
       <div className="container2">
         {/* <div className='container2-box1'><Bar/></div>  */}
