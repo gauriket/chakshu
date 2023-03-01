@@ -1,11 +1,13 @@
 import React from "react";
+import './card2.css'
 
 export default function ExampleCard() {
     return (
+        <div className="container">
         <div className="grid gap-7 sm:grid-cols-2 lg:grid-cols-4">
-            <div className="flex items-center justify-between p-55 bg-white rounded shadow-xl">
+            <div className="flex items-center justify-between p-155 bg-white rounded shadow-xl">
                 <div>
-                    <div className="text-sm text-gray-400 ">Total Users</div>
+                    <div className="text-sm text-blue-400 ">Total Users</div>
                     <div className="flex items-center pt-1">
                         <div className="text-xl font-medium text-black-400 ">98509</div>
                     </div>
@@ -17,9 +19,9 @@ export default function ExampleCard() {
                     </svg>
                 </div>
             </div>
-            <div className="flex items-center justify-between p-55 bg-white rounded shadow-xl">
+            <div className="flex items-center justify-between p-155 bg-white rounded shadow-xl">
                 <div>
-                    <div className="text-sm text-gray-400 ">Total Reports</div>
+                    <div className="text-sm text-blue-400 ">Total Reports</div>
                     <div className="flex items-center pt-1">
                         <div className="text-xl font-medium text-black-400 ">75250</div>
                     </div>
@@ -31,7 +33,7 @@ export default function ExampleCard() {
                     </svg>
                 </div>
             </div>
-            <div className="flex items-center justify-between p-55 bg-white rounded shadow-xl">
+            <div className="flex items-center justify-between p-155 bg-white rounded shadow-xl">
                 <div>
                     <div className="text-sm text-green-400 ">Verified Reports</div>
                     <div className="flex items-center pt-1">
@@ -44,7 +46,7 @@ export default function ExampleCard() {
                     </svg>
                 </div>
             </div>
-            <div className="flex items-center justify-between p-55 bg-white rounded shadow-xl">
+            <div className="flex items-center justify-between p-155 bg-white rounded shadow-xl">
                 <div>
                     <div className="text-sm text-red-400 ">Fake Reports and Users</div>
                     <div className="flex items-center pt-1">
@@ -59,6 +61,6 @@ export default function ExampleCard() {
                     </svg>
                 </div>
             </div>
-        </div>
+        </div></div>
     )
 }
