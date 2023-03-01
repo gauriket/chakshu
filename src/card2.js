@@ -3,11 +3,11 @@ import React from "react";
 export default function ExampleCard() {
     return (
         <div className="grid gap-7 sm:grid-cols-2 lg:grid-cols-4">
-            <div className="flex items-center justify-between p-5 bg-white rounded shadow-sm">
+            <div className="flex items-center justify-between p-55 bg-white rounded shadow-xl">
                 <div>
-                    <div className="text-sm text-gray-400 ">Total Sales</div>
+                    <div className="text-sm text-gray-400 ">Total Users</div>
                     <div className="flex items-center pt-1">
-                        <div className="text-xl font-medium text-indigo-400 ">$9850.90</div>
+                        <div className="text-xl font-medium text-black-400 ">98509</div>
                     </div>
                 </div>
                 <div className="text-gray-300">
@@ -17,11 +17,11 @@ export default function ExampleCard() {
                     </svg>
                 </div>
             </div>
-            <div className="flex items-center justify-between p-5 bg-white rounded shadow-sm">
+            <div className="flex items-center justify-between p-55 bg-white rounded shadow-xl">
                 <div>
-                    <div className="text-sm text-gray-400 ">Net Revenue</div>
+                    <div className="text-sm text-gray-400 ">Total Reports</div>
                     <div className="flex items-center pt-1">
-                        <div className="text-xl font-medium text-indigo-400 ">$7520.50</div>
+                        <div className="text-xl font-medium text-black-400 ">75250</div>
                     </div>
                 </div>
                 <div className="text-gray-300">
@@ -31,11 +31,11 @@ export default function ExampleCard() {
                     </svg>
                 </div>
             </div>
-            <div className="flex items-center justify-between p-5 bg-white rounded shadow-sm">
+            <div className="flex items-center justify-between p-55 bg-white rounded shadow-xl">
                 <div>
-                    <div className="text-sm text-gray-400 ">Customers</div>
+                    <div className="text-sm text-green-400 ">Verified Reports</div>
                     <div className="flex items-center pt-1">
-                        <div className="text-xl font-medium text-indigo-400">1375</div>
+                        <div className="text-xl font-medium text-black-400">1375</div>
                     </div>
                 </div>
                 <div className="text-gray-400">
@@ -44,11 +44,11 @@ export default function ExampleCard() {
                     </svg>
                 </div>
             </div>
-            <div className="flex items-center justify-between p-5 bg-white rounded shadow-sm">
+            <div className="flex items-center justify-between p-55 bg-white rounded shadow-xl">
                 <div>
-                    <div className="text-sm text-gray-400 ">MRR</div>
+                    <div className="text-sm text-red-400 ">Fake Reports and Users</div>
                     <div className="flex items-center pt-1">
-                        <div className="text-xl font-medium text-indigo-400 ">$250.00</div>
+                        <div className="text-xl font-medium text-black-400 ">2500</div>
                     </div>
                 </div>
                 <div className="text-gray-300">
